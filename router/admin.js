@@ -7,7 +7,7 @@ adminRouter.get('/add-products',(req,res,next)=>{
     res.sendFile(path.join(template,'views','admin.html'));
     console.log('abhinav');
  });
-adminRouter.post('/add-products',(req,res,next)=>{
+adminRouter.post('/product',(req,res,next)=>{
   console.log('solved');
   res.redirect('/');
  })
