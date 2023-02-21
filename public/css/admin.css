@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.move{
+    height: 100%;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: rgba(245, 245, 245, 0.856);
+}
+.container{
+    /* width: 40%; */
+    
+    /* text-align: center; */
+}
+.move .container form input{
+        /* width:20rem; */
+}
+
+.t{
+    /*height:100%;*/
+    width:100%;
+    /*padding:0% 10%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-top:10px;
+}
+.form-control{
+    width:22rem;
+}

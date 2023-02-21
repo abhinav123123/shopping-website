@@ -1,0 +1,10 @@
+.active{
+    color:yellow;
+}
+
+.product-detail{
+    text-align: center;
+}
+.product-detail img{
+    width: 20%;
+}
